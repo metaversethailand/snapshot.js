@@ -1029,7 +1029,7 @@ var gateways = [
 	"ipfs.infura.io"
 ];
 
-var SNAPSHOT_SCORE_API = 'http://localhost:3002/api/scores';
+var SNAPSHOT_SCORE_API = 'https://score.metachain.asia/api/scores';
 function call(provider, abi, call, options) {
     return __awaiter(this, void 0, void 0, function () {
         var contract, params, e_1;
